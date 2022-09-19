@@ -1,0 +1,38 @@
+<html lang="th"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>GJ Contact Card</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/thsarabunnew.css">
+    <!-- Main CSS and JS -->
+    <link rel="stylesheet" href="main_css.css">
+    <script type="text/javascript" src="main_js.js"></script>
+    <script type="text/javascript" src="contacts.js"></script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="GJ Contact">
+    <meta name="application-name" content="GJ Contact">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  
+  <body>
+    <header>Golden Jubilee Contact Card</header>
+    <nav>
+      <input type="text" id="searchbox" placeholder="Search..." onkeyup="search_contact('searchbox');" />
+    </nav>
+    <section id="search_result">
+      <div class="item_group"></div>
+    </section>
+    <script>
+      search_contact("searchbox");
+    </script>
+  </body>
+  
+  </html>
