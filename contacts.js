@@ -138,9 +138,10 @@
 { group: "ชั้น 2 Appointment Center นัดหมายในเวลาราชการ 8.00-16.00", name: " AppointmentCenter0", phone: ["028496600,7051"] },
 { group: "ชั้น 2 Appointment Center นัดหมายในเวลาราชการ 8.00-16.00", name: " AppointmentCenter1", phone: ["028496600,7052"] },
 
-//ชั้น 2 Admission นอกเวลาราชการ 20.00-06.00
-{ group: "ชั้น 2 Admission นอกเวลาราชการ 20.00-06.00", name: "Admission0", phone: ["028496600,3107"] },
-{ group: "ชั้น 2 Admission นอกเวลาราชการ 20.00-06.00", name: "Admission1", phone: ["028496600,3108"] },
+//ชั้น 2 Admission 24 ชั่วโมง
+{ group: "ชั้น 2 Admission 24 ชั่วโมง", name: "Admission0", phone: ["028496600,3108"] },
+{ group: "ชั้น 2 Admission 24 ชั่วโมง", name: "Admission1", phone: ["028496600,3523"] },
+{ group: "ชั้น 2 Admission 24 ชั่วโมง", name: "Admission2", phone: ["028496600,3524"] },
 
 //ชั้น 2 ร้านขายยา ศิริราชบำรุงเวช
 { group: "ชั้น 2 ร้านขายยา ศิริราชบำรุงเวช", name: "ร้านขายยา ศิริราชบำรุงเวช", phone: ["028496600,2103"] },
